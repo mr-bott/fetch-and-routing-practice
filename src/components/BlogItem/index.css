@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.main-img {
+  width: 100%;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.profile {
+  border-radius: 25px;
+  width: 50px;
+}
+.topic {
+  font-size: 18px;
+  font-weight: 500;
+  color: #d3d3d3;
+}
+.title {
+  font-size: 21px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .li {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-img {
+    width: 55%;
+  }
+  .medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+  }
+}
+.link {
+  text-decoration: none;
+}
